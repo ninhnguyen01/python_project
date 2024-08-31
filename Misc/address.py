@@ -1,5 +1,0 @@
-city = input("Insert the city you currently live in: ")
-country = input("Insert the country you currently live in: ")
-print("You live in " + city + ", " + country)
-zip_code = input("Insert your ZIP code: ")
-print("Your zip code is: " + zip_code)

@@ -1,8 +1,0 @@
-num_sec=int(input("Enter number of seconds:"))
-num_days=int(num_sec/(24*3600))
-num_sec1= num_sec % (24*3600)
-num_hrs = int(num_sec1/(3600))
-num_sec2 = num_sec1 % (3600)
-num_mins = int(num_sec2/(60))
-num_sec3 = num_sec2 % (60)
-print(f'{num_days} day(s), {num_hrs} hour(s), {num_mins} minute(s), and {num_sec3} second(s).')
